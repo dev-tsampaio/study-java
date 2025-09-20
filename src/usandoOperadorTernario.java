@@ -3,7 +3,7 @@ public class usandoOperadorTernario {
 
         double dollars = 6000;
 
-        String result = dollars >= 5000 ? " i will donate 500 dollars" : " i will not donate 500 dollars because i dont have money";
+        String result = dollars >= 5000 ? " i will donate 500 dollars" : " i will not donate 500 dollars because i dont have money"; // É a mesma coisa da estrutura if/else abaixo.
         System.out.println(result);
 
         /*if(salario>5000){
