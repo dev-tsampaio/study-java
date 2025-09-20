@@ -5,6 +5,7 @@ public class usandoSwitch {
         //Imprima o dia da semana, considerando 1 como domingo
 
         Scanner sc = new Scanner(System.in); // Chamando uma entrada de valor no cmd
+        System.out.print("Digite um numero de 1~7:");
         Integer dia = sc.nextInt();
         switch (dia) {
             case 1:
